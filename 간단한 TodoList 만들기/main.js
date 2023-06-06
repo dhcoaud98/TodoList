@@ -1,6 +1,6 @@
-let inputValue = document.getElementById('input-box');
+let inputValue = document.getElementById('inputBox');
 let inputBtn = document.getElementById('btn');
-let todoLists = document.getElementById('todo-list');
+let todoLists = document.getElementById('todoList');
 
 // 로직
 inputBtn.addEventListener('click', function(){
