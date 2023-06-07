@@ -12,4 +12,14 @@ inputBtn.addEventListener('click', function(){
     todoLists.appendChild(list)
     inputValue.value = ''
   }
+
+  // 할일 체크
+  list.addEventListener('click', function(){
+    list.style.textDecoration = "line-through";
+  })
+
+  // 두 번 클릭하면 삭제
+  list.addEventListener('dblclick', function(){
+    todoLists.removeChild(list);
+  })
 })
